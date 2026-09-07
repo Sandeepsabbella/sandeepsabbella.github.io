@@ -1,0 +1,29 @@
+[
+  {
+    "title": "AI Engineering Foundations",
+    "provider": "Certificate provider placeholder",
+    "skills": ["Machine learning", "Prompt engineering", "AI systems"],
+    "credentials": "Credential ID pending",
+    "obtainedOn": "Month, Year",
+    "expiry": "Month, Year",
+    "url": ""
+  },
+  {
+    "title": "Generative AI Professional",
+    "provider": "Certificate provider placeholder",
+    "skills": ["LLM applications", "RAG", "Evaluation"],
+    "credentials": "Credential ID pending",
+    "obtainedOn": "Month, Year",
+    "expiry": "Month, Year",
+    "url": ""
+  },
+  {
+    "title": "Cloud Development Associate",
+    "provider": "Certificate provider placeholder",
+    "skills": ["Cloud architecture", "APIs", "Deployment"],
+    "credentials": "Credential ID pending",
+    "obtainedOn": "Month, Year",
+    "expiry": "Month, Year",
+    "url": ""
+  }
+]

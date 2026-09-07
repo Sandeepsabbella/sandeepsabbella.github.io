@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sandeep Sabbella's portfolio of AI, full-stack, open-source, and research work."
+    />
+    <title>Sandeep Sabbella | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand-nav">
+        <a class="brand" href="#home" aria-label="Sandeep Sabbella home">
+          <span class="brand-mark">SS</span>
+          <span>Sandeep Sabbella</span>
+        </a>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <a href="#home">Home</a>
+          <a href="#latest">Latest</a>
+          <a href="#works">Works</a>
+          <a href="#tools">Tools</a>
+          <a href="#blog">Blog</a>
+          <a href="#resume">Resume</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open navigation">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+
+      <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to light mode">
+        <span class="theme-icon theme-icon-dark" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 3a6 6 0 0 0 9 9a9 9 0 1 1-9-9"/></svg></span>
+        <span class="theme-track"><span class="theme-thumb"></span></span>
+        <span class="theme-icon theme-icon-light" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M3 12h1M12 3v1M20 12h1M12 20v1M5.6 5.6l.7.7M18.4 5.6l-.7.7M18.4 18.4l-.7-.7M5.6 18.4l.7-.7"/></svg></span>
+      </button>
+    </header>
+
+    <div class="page-art" aria-hidden="true">
+      <img id="page-background-image" src="assets/ai-architecture-dark.jpeg" alt="" />
+      <span class="page-art-tint"></span>
+      <span class="page-art-grid"></span>
+      <span class="page-pulse page-pulse-one"></span>
+      <span class="page-pulse page-pulse-two"></span>
+      <span class="page-pulse page-pulse-three"></span>
+      <span class="page-pulse page-pulse-four"></span>
+    </div>
+
+    <nav class="floating-dock" aria-label="Quick navigation">
+      <a class="dock-item" href="#home" aria-label="Home" title="Home"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12l-2 0l9 -9l9 9l-2 0M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"/></svg></a>
+      <a class="dock-item" href="#latest" aria-label="Latest" title="Latest"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3l1.2 4.3a2 2 0 0 0 1.4 1.4L19 10l-4.4 1.3a2 2 0 0 0 -1.4 1.4L12 17l-1.2-4.3a2 2 0 0 0 -1.4-1.4L5 10l4.4-1.3a2 2 0 0 0 1.4-1.4zM19 3v4M21 5h-4M5 17v4M7 19H3"/></svg></a>
+      <a class="dock-item" href="#works" aria-label="Works" title="Works"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2-2z"/></svg></a>
+      <a class="dock-item" href="#tools" aria-label="Tools" title="Tools"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.7 6.3a4 4 0 0 0 -5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4L15 12l-3-3z"/></svg></a>
+      <a class="dock-item" href="#blog" aria-label="Blog" title="Blog"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 6h3a1 1 0 0 1 1 1v11a2 2 0 0 1 -4 0v-13a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1v12a3 3 0 0 0 3 3h11M8 8l4 0M8 12l4 0M8 16l4 0"/></svg></a>
+      <a class="dock-item" href="#resume" aria-label="Resume" title="Resume"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 3v4a1 1 0 0 0 1 1h4M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2M9 13h6M9 17h6"/></svg></a>
+      <a class="dock-item" href="#certifications" aria-label="Certifications" title="Certifications"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 15l-3.5 2l.7-4l-2.8-2.8l4-.6L12 6l1.6 3.6l4 .6l-2.8 2.8l.7 4zM5 3h14v18l-7-3l-7 3z"/></svg></a>
+      <a class="dock-item" href="#contact" aria-label="Contact" title="Contact"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10M3 7l9 6l9 -6"/></svg></a>
+      <a class="dock-item" href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 11v5M8 8v.01M12 16v-5M16 16v-3a2 2 0 1 0 -4 0M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"/></svg></a>
+      <a class="dock-item" href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2c2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2a4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C5.5 1.8 4.4 2.1 4.4 2.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 3 8.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a>
+    </nav>
+
+    <main>
+      <section id="home" class="hero section route-section">
+        <div class="hero-copy">
+          <p class="availability"><span class="availability-dot"></span> Available for AI Applied Scientist &amp; Architect roles</p>
+          <h1> Sandeep Reddy Sabbella <em>Ph.D.</em></h1>
+          <h2 class="hero-title">AI/ML Engineer &amp; Applied Scientist</h2>
+          <p class="hero-text">
+            Enterprise AI Architect specializing in <strong>Agentic AI</strong>, <strong>Multimodal LLMs</strong>,
+            <strong>Vision-Language-Action models</strong>, and <strong>Embodied AI systems</strong>.
+          </p>
+          <div class="stats-snapshot" aria-label="Professional highlights">
+            <div><strong>10+</strong><span>Years AI &amp; Robotics</span></div>
+            <div><strong>7+</strong><span>Years Industry Experience</span></div>
+            <div><strong>10+</strong><span>Peer-reviewed Papers</span></div>
+            <div><strong>Ph.D.</strong><span>Sapienza Univ. di Roma</span></div>
+          </div>
+          <div class="hero-actions">
+            <a class="button" href="#works">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="resume.pdf" download><span class="document-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M14 3v4a1 1 0 0 0 1 1h4M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2M9 13h6M9 17h6"/></svg></span>Download CV</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M6.5 8.5V18M6.5 5.5v.01M11 18v-5.2a3 3 0 0 1 6 0V18M11 11v7M3.5 3.5h17v17h-17z"/></svg></span><span>LinkedIn ↗</span></a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C5.5 1.8 4.4 2.1 4.4 2.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 3 8.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></span><span>GitHub ↗</span></a>
+          </div>
+        </div>
+        <aside class="hero-note" aria-label="Current focus">
+          <div class="hero-visual">
+            <picture class="architecture-art">
+              <img src="assets/ai-architecture-dark.jpeg" alt="Illustration of humans, AI, and robots connected by an intelligent circuit system" />
+            </picture>
+          </div>
+          <div class="profile-orbit" aria-label="Sandeep Sabbella profile image">
+            <span class="profile-orbit-circle profile-orbit-circle-top" aria-hidden="true"></span>
+            <span class="profile-orbit-circle profile-orbit-circle-bottom" aria-hidden="true"></span>
+            <span class="profile-orbit-circle profile-orbit-center"><img src="assets/profile.png" alt="Portrait of Sandeep Sabbella" /></span>
+          </div>
+          <div class="tech-cloud" aria-label="Technology stack">
+            <span>Agentic AI</span><span>LLMs</span><span>Python</span><span>LangGraph</span>
+            <span>RAG</span><span>VLA</span><span>Robotics</span><span>Cloud</span><span>ML</span><span>CV</span>
+          </div>
+        </aside>
+      </section>
+
+      <section id="latest" class="section section-border route-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Fresh from the notebook</p>
+            <h2>Latest</h2>
+          </div>
+          <a class="text-link" href="#blog">View all notes <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="latest-grid">
+          <article class="feature-card">
+            <p class="card-kicker">Featured project · AI</p>
+            <h3>Designing calm interfaces for intelligent tools.</h3>
+            <p>Notes on making powerful AI feel transparent, helpful, and human.</p>
+            <a class="text-link" href="#blog">Read the note <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="update-card">
+            <span class="update-date">08.2026</span>
+            <h3>Building in public</h3>
+            <p>A weekly log of experiments, lessons, and small wins.</p>
+          </article>
+          <article class="update-card">
+            <span class="update-date">07.2026</span>
+            <h3>What I am reading</h3>
+            <p>Paper discussions and ideas worth carrying into practice.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="works" class="section section-border route-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Works</h2>
+          </div>
+          <p class="section-intro">A map of projects across code, research, and product.</p>
+        </div>
+        <div class="category-grid">
+          <a id="ai-projects" class="category-card category-card-featured" href="#ai-projects">
+            <span class="category-number">01</span>
+            <h3>AI Projects</h3>
+            <p>Applied intelligence, agents, and thoughtful automation.</p>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a id="full-stack-projects" class="category-card" href="#full-stack-projects">
+            <span class="category-number">02</span>
+            <h3>Full Stack Projects</h3>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a id="open-source" class="category-card" href="#open-source">
+            <span class="category-number">03</span>
+            <h3>Open Source</h3>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a id="research-projects" class="category-card" href="#research-projects">
+            <span class="category-number">04</span>
+            <h3>Research Projects</h3>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a id="case-studies" class="category-card" href="#case-studies">
+            <span class="category-number">05</span>
+            <h3>Case Studies</h3>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="tools" class="section section-border route-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Useful by design</p>
+            <h2>Tools</h2>
+          </div>
+          <p class="section-intro">A curated shelf of things that make better work possible.</p>
+        </div>
+        <div class="list-grid">
+          <a id="ai-tools" href="#ai-tools"><span>AI Tools</span><span>↗</span></a>
+          <a id="productivity" href="#productivity"><span>Productivity</span><span>↗</span></a>
+          <a id="dev-toolkit" href="#dev-toolkit"><span>Dev Toolkit</span><span>↗</span></a>
+          <a id="learning-resources" href="#learning-resources"><span>Learning Resources</span><span>↗</span></a>
+        </div>
+      </section>
+
+      <section id="blog" class="section section-border route-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Ideas in progress</p>
+            <h2>Tech Blog</h2>
+          </div>
+          <p class="section-intro">Implementations, experiments, and notes from the journey.</p>
+        </div>
+        <div class="blog-grid">
+          <a id="implementations" href="#implementations"><span>Implementations</span><small>Building things that work</small></a>
+          <a id="paper-discussions" href="#paper-discussions"><span>Paper Discussions</span><small>Research, translated</small></a>
+          <a id="podcast-notes" href="#podcast-notes"><span>Podcast Notes</span><small>Ideas worth replaying</small></a>
+          <a id="engineering-notes" href="#engineering-notes"><span>Engineering Notes</span><small>Lessons from the stack</small></a>
+          <a id="ai-experiments" href="#ai-experiments"><span>AI Experiments</span><small>Curiosity in practice</small></a>
+        </div>
+      </section>
+
+      <section id="resume" class="resume-banner section route-section">
+        <div>
+          <p class="eyebrow">The short version</p>
+          <h2>Curious about the longer story?</h2>
+        </div>
+        <a class="button button-light" href="resume.pdf" download><span class="document-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M14 3v4a1 1 0 0 0 1 1h4M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2M9 13h6M9 17h6"/></svg></span>Download my resume</a>
+      </section>
+
+      <section id="certifications" class="section section-border route-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Proof of practice</p>
+            <h2>Certifications</h2>
+            <p class="section-intro">AI and engineering credentials, ready to be filled from the certificate data file.</p>
+          </div>
+        </div>
+        <div id="certification-grid" class="certification-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="contact" class="contact section route-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let's <em>work together.</em></h2>
+          </div>
+          <p class="section-intro">I am open to software engineering, AI engineering, applied AI, and technically ambitious collaborations.</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10M3 7l9 6l9 -6"/></svg></span>
+              <div><h3>Email</h3><a href="mailto:hello@sandeep.dev">hello@sandeep.dev</a></div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M8 11v5M8 8v.01M12 16v-5M16 16v-3a2 2 0 1 0 -4 0M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"/></svg></span>
+              <div><h3>LinkedIn</h3><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Connect with me</a></div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2c2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4-1.6-3.5-1.3-3.5-1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2v3.5"/></svg></span>
+              <div><h3>GitHub</h3><a href="https://github.com/" target="_blank" rel="noreferrer">View my projects</a></div>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <label><span>Your name</span><input type="text" name="name" placeholder="How should I call you?" required /></label>
+            <label><span>Your email</span><input type="email" name="email" placeholder="you@example.com" required /></label>
+            <label><span>Subject</span><input type="text" name="subject" placeholder="What shall we build?" required /></label>
+            <label><span>Message</span><textarea name="message" rows="4" placeholder="Tell me a little about it..." required></textarea></label>
+            <button class="button" type="submit">Send message <span aria-hidden="true">↗</span></button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Sandeep Sabbella</span>
+      <span>Made with curiosity.</span>
+      <a href="#home">Back to top ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
